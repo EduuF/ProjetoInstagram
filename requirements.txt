@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+email-validator
+python-multipart
+
+httpx
+
+sqlalchemy[asyncio]>=2.0
+aiosqlite
+asyncpg
+
+alembic
+cryptography
+bcrypt>=4.0
+pyjwt>=2.8
+
+# AWS (só usado em prod, mas leve o bastante pra subir em todos os envs)
+boto3>=1.34

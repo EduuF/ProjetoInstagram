@@ -1,0 +1,24 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.venv
+venv
+.env.local
+.env.*.local
+
+# Artefatos de desenvolvimento que não devem ir pra imagem
+*.db
+*.db-*
+projetoinstagram.db*
+__alembic_tmp*
+instagram_API_with_IG_login.ipynb
+
+# Git / IDE
+.git
+.gitignore
+.vscode
+.idea
